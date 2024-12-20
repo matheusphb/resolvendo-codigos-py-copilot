@@ -4,11 +4,11 @@ Este repositório contém uma série de exercícios projetados para praticar a l
 
 ## Índice
 1. [Concatenando Dados 🐾](https://github.com/matheusphb/resolvendo-codigos-py-copilot/blob/main/resolucoes_code/Concatenando%20Dados.py)
-2. [Repetindo Textos ✏️](#2---repetindo-textos)
-3. [Operações Matemáticas Simples 💐](#3---operações-matemáticas-simples)
-4. [Verificando Números Pares e Ímpares 🫤](#4---verificando-números-pares-e-ímpares)
-5. [Calculando Média de Notas 📚](#5---calculando-média-de-notas)
-6. [Verificando Palíndromos 🔄](#6---verificando-palíndromos)
+2. [Repetindo Textos ✏️](https://github.com/matheusphb/resolvendo-codigos-py-copilot/blob/main/resolucoes_code/Repetindo%20Textos.py)
+3. [Operações Matemáticas Simples 💐](https://github.com/matheusphb/resolvendo-codigos-py-copilot/blob/main/resolucoes_code/Opera%C3%A7%C3%B5es%20Matem%C3%A1ticas%20Simples.py)
+4. [Verificando Números Pares e Ímpares 🫤](https://github.com/matheusphb/resolvendo-codigos-py-copilot/blob/main/resolucoes_code/Verificando%20N%C3%BAmeros%20Pares%20e%20%C3%8Dmpares.py)
+5. [Calculando Média de Notas 📚](https://github.com/matheusphb/resolvendo-codigos-py-copilot/blob/main/resolucoes_code/Calculando%20M%C3%A9dia%20de%20Notas.py)
+6. [Verificando Palíndromos 🔄](https://github.com/matheusphb/resolvendo-codigos-py-copilot/blob/main/resolucoes_code/Verificando%20Pal%C3%ADndromos.py)
 
 ---
 
