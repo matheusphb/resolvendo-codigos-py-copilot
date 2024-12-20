@@ -3,7 +3,7 @@
 Este repositório contém uma série de exercícios projetados para praticar a linguagem Python, utilizando o GitHub Copilot e o GitHub Codespaces. Essas ferramentas auxiliam no desenvolvimento de soluções rápidas e eficientes, melhorando a experiência de aprendizado e codificação.
 
 ## Índice
-1. [Concatenando Dados 🐾](#1---concatenando-dados)
+1. [Concatenando Dados 🐾]((https://github.com/matheusphb/resolvendo-codigos-py-copilot/blob/main/resolucoes_code/Concatenando%20Dados.py))
 2. [Repetindo Textos ✏️](#2---repetindo-textos)
 3. [Operações Matemáticas Simples 💐](#3---operações-matemáticas-simples)
 4. [Verificando Números Pares e Ímpares 🫤](#4---verificando-números-pares-e-ímpares)
