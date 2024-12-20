@@ -1,85 +1,123 @@
-# Resolvendo Códigos em Python com o Github Copilot
 
-Olá!! Aqui veremos algumas resoluções de códigos em python utilizando o Github Copilot.
+### 1. **Concatenando Dados 🐾**
+**Descrição**: Receba dois dados diferentes do usuário e concatene-os em uma única string.
 
-### Atenção ⚠️ 
+**Exemplo de código**:
 
-Não tem acesso ao Github Copilot?! Não tem problema!! 
-Que tal utilizar o [ChatGPT](https://chat.openai.com/) como seu copiloto de estudos ??
+```python
+# Solicitar ao usuário dois dados
+dado1 = input("Digite o primeiro dado: ")
+dado2 = input("Digite o segundo dado: ")
 
-## 1 - Concatenando Dados 🐾
+# Concatenando os dados
+resultado = dado1 + dado2
 
-Descrição:
-Vamos receber dois dados diferentes do usuário e concatena-los em uma única string?! 
+# Exibindo o resultado
+print("A concatenação dos dados é:", resultado)
+```
 
-O que aprenderemos?
+Neste exercício, o GitHub Copilot pode ajudar a sugerir o uso da função `input()` e como concatenar strings.
 
-* Manipulação de Strings (string)
-* Concatenação
-* Entrada de dados
-* Utilização eficiente do Github Copilot
+---
 
-<br>
+### 2. **Repetindo Textos ✏️**
+**Descrição**: Solicite uma string e um número inteiro como entrada e retorne a string repetida o número de vezes informado.
 
-## 2 - Repetindo Textos ✏️
+**Exemplo de código**:
 
-Descrição:
-Agora vamos solicitar uma string e um número inteiro como entrada. Depois teremos que retornar a string repetida o número de vezes informado. 
+```python
+# Solicitar a string e o número inteiro
+texto = input("Digite a string que deseja repetir: ")
+repeticoes = int(input("Digite o número de vezes para repetir a string: "))
 
-O que aprenderemos?
+# Repetindo a string
+resultado = texto * repeticoes
 
-* Manipulação de Strings (string)
-* Números Inteiros (int)
-* Múltiplas repetições
-* Entrada de dados
-* Aproveitar as sugestões do Github Copilot
+# Exibindo o resultado
+print("Resultado:", resultado)
+```
 
-<br>
+O Copilot pode sugerir o uso do operador de multiplicação (`*`) para repetir a string a quantidade de vezes fornecida.
 
-## 3 - Operações Matemáticas Simples 📐
+---
 
-Descrição:
-Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+### 3. **Operações Matemáticas Simples 📐**
+**Descrição**: Solicite dois números e depois realize uma operação simples entre eles.
 
-O que aprenderemos?
+**Exemplo de código**:
 
-* Operações Matemáticas Básicas
-* Entrada de dados
-* Utilização eficiente do Github Copilot
+```python
+# Solicitar dois números
+numero1 = float(input("Digite o primeiro número: "))
+numero2 = float(input("Digite o segundo número: "))
 
-<br>
+# Realizar operação (exemplo: soma)
+resultado = numero1 + numero2
 
-## 4 - Verificando Números Pares e Ímpares 🧮
+# Exibir resultado
+print("Resultado da soma:", resultado)
+```
 
-Descrição: Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. 
-Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
+Aqui, o Copilot pode sugerir operadores matemáticos para realizar a operação entre os dois números, como soma, subtração, multiplicação ou divisão.
 
-O que aprenderemos?
-* Utilização de condicionais em Python (if, else) para realizar verificações.
-* Introdução ao conceito de operador de módulo (%) para verificar se um número é par ou ímpar.
-* Exploração do uso de uma ferramenta de IA, como o Github Copilot, para otimizar a estrutura do código.
+---
 
+### 4. **Verificando Números Pares e Ímpares 🧮**
+**Descrição**: Receba um número inteiro e verifique se ele é par ou ímpar.
 
-<br>
+**Exemplo de código**:
 
-## 5 - Calculando Média de Notas 📚
+```python
+# Solicitar um número
+numero = int(input("Digite um número inteiro: "))
 
-Descrição: Agora vamos calcular a média de três notas fornecidas na entrada do usuário. 
-Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
+# Verificar se o número é par ou ímpar
+if numero % 2 == 0:
+    print("O número é par.")
+else:
+    print("O número é ímpar.")
+```
 
-O que aprenderemos?
-* Uso de variáveis para armazenar dados fornecidos pelo usuário.
-* Aplicação de operadores aritméticos (+, /) para calcular a média de um conjunto de valores.
-* Prática na solicitação e manipulação de entrada do usuário.
+O Copilot pode sugerir o uso do operador módulo (`%`) para verificar se o número é divisível por 2, determinando se é par ou ímpar.
 
-<br>
+---
 
-## 6 - Verificando Palíndromos 🔄
+### 5. **Calculando Média de Notas 📚**
+**Descrição**: Calcule a média de três notas fornecidas.
 
-Descrição: Vamos testar se uma palavra é um palíndromo?! 
-Uma dica é: Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
+**Exemplo de código**:
 
-O que aprenderemos?
-* Manipulação de strings em Python, especialmente invertendo uma string.
-* Compreensão de como comparar a string original com sua versão invertida para determinar se é um palíndromo.
-* Introdução ao conceito de palíndromos e sua aplicação em problemas de programação.
+```python
+# Solicitar as três notas
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+# Calcular a média
+media = (nota1 + nota2 + nota3) / 3
+
+# Exibir o resultado
+print("A média das notas é:", media)
+```
+
+O Copilot pode sugerir o uso de variáveis para armazenar as notas e a aplicação do operador aritmético de soma e divisão para calcular a média.
+
+---
+
+### 6. **Verificando Palíndromos 🔄**
+**Descrição**: Teste se uma palavra é um palíndromo (lê-se da mesma forma de trás para frente).
+
+**Exemplo de código**:
+
+```python
+# Solicitar a palavra
+palavra = input("Digite uma palavra: ")
+
+# Verificar se a palavra é um palíndromo
+if palavra == palavra[::-1]:
+    print("A palavra é um palíndromo.")
+else:
+    print("A palavra não é um palíndromo.")
+```
+
+Aqui, o Copilot pode sugerir o uso de slicing (`[::-1]`) para inverter a string e compará-la com a original.
